@@ -16,4 +16,4 @@ There are three key componants to the model:
 * in.txt- contains the environment which the agents will interact with    
 
 These all need to be dowloaded in the same directory to run the model.
-### Agent Based Modelling
+## Agent Based Modelling
