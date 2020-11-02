@@ -2,7 +2,6 @@
 
 ## Contents
 1. Introduction
-2. Agent Based Modelling
 3. Sheep in a field
 4. Liscence
 
@@ -21,10 +20,6 @@ There are three variables to set:
 * number of agents
 * number of iterations
 * neighbourhood size
-
-## Agent Based Modelling
-
-
 
 ## Sheep in a field- what is to be expected
 The model represents a field being grazed by sheep. These sheep, the agents, interact with each other and the environment. 
