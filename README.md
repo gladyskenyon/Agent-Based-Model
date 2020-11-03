@@ -10,8 +10,8 @@ This portfolio has been created for assignment one of the week intensive Leeds U
 The [Agent-Based-Model repository](https://github.com/gladyskenyon/Agent-Based-Model) contains the final scripts and outputs. 
 
 There are three key componants to the ABM which all need to be saved in the same directory:
-* model.py- contains code to set up and control the model
-* agentframework.py- defines the Agent class - object orientated
+* finalmodel.py- contains code to set up and control the model
+* agentframework1.py- defines the Agent class - object orientated
 * in.txt- contains the environment which the agents will interact with    
 
 You will also need to tell the iPython console to produce a popout window by entering 'matplotlib qt' in the console before running the code.
