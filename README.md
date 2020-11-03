@@ -7,7 +7,7 @@
 
 ## Introduction
 This portfolio has been created for assignment one of the week intensive Leeds University GEOG995 Core programming course. The code was written using Python 3 in the IUD Spyder. 
-The [repository](https://github.com/gladyskenyon/Agent-Based-Model) contains the final scripts and outputs. 
+The [Agent-Based-Model repository](https://github.com/gladyskenyon/Agent-Based-Model) contains the final scripts and outputs. 
 
 There are three key componants to the ABM which all need to be saved in the same directory:
 * model.py- contains code to set up and control the model
