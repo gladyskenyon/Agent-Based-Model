@@ -1,33 +1,38 @@
-# Agent-Based-Model Practical
+# README Agent-Based-Model Practical
 
 ## Contents
 1. Introduction
 3. Sheep in a field
-4. Liscence
+4. Licence
 
-## Introduction- how to run the model and outline of software
-This portfolio has been created for assignment one of the week intensive Leeds University GEOG995 Core programming course. 
-The repository contains the final practical scripts and several outputs (figures and files). The code was written using Python 3 in the IUD Spyder. 
+## Introduction
+This portfolio has been created for assignment one of the week intensive Leeds University GEOG995 Core programming course. The code was written using Python 3 in the IUD Spyder. 
+The [repository](https://github.com/gladyskenyon/Agent-Based-Model) contains the final scripts and outputs. 
 
-There are three key componants to the model:
+There are three key componants to the ABM which all need to be saved in the same directory:
 * model.py- contains code to set up and control the model
 * agentframework.py- defines the Agent class - object orientated
 * in.txt- contains the environment which the agents will interact with    
 
-These all need to be dowloaded in the same directory to run the model.
+You will also need to tell the iPython console to produce a popout window by entering 'matplotlib qt' in the console before running the code.
 
-There are three variables to set: 
+There are three variables which have been set but can be changed:
 * number of agents
 * number of iterations
 * neighbourhood size
 
 ## Sheep in a field- what is to be expected
-The model represents a field being grazed by sheep. These sheep, the agents, interact with each other and the environment. 
-The model will  run through a GUI, an external window with a Menu from which you can select 'Run Model'.
-There will be 20 agents which are randomly initialised in the field. The agents move randomly eating the field as they do so. The environment is a torus meaning if the sheep wonder off the field they will return on the other side.
-The rescaling of the colour of the environment around the sheeps path represents where they have eaten, it will also show when the
+The model represents a field, which contains a herd of sheep.
+These sheep, the agents, interact with each other and the field.
+
+There will be 25 sheep which are randomly initialised in the field. The agents move randomly eating the field as they do so. The environment is a torus meaning if the sheep wonder off the field they will return on the other side. The model is animated and is set to iterate 70 times.
+
+The model will  run through a GUI, an external window with a Menu from which you can select 'Run Model'. There are 2 other figure pop ups which can be closed.
+The rescaling of the colour of the environment around the sheeps path represents where they have eaten, it will also show when they have eaten too much and vommited up there store (yellow colour).
 
 Additionally, agents will interact by sharing their store if they come within a certain distance of one another, as defined by the neighbourhood varibale.  
+The environment values will be written to an excel file. In addition, the total store of all agents will by printed in the console after the model has run.
 
-## Liscence 
-This project is licenced under the MIT licence. 
+## Licence 
+This project is licenced under the MIT licence.
+The website used a pre loaded theme.
