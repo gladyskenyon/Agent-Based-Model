@@ -22,18 +22,18 @@ There are three variables which have been set but can be changed:
 * neighbourhood size
 
 ## Sheep in a field- what is to be expected
-The model represents a field, which contains a herd of sheep.
-These sheep, the agents, interact with each other and the field.
+The model represents a field (the environment) which contains a herd of sheep (agents).
+The sheep will perform a set of behaviours, as defined in a separate Agent class, which involve interacting with each other and their environment.
 
 There will be 25 sheep which are randomly initialised in the field. The agents move randomly eating the field as they do so. The environment is a torus meaning if the sheep wonder off the field they will return on the other side. The model is animated and is set to iterate 70 times.
 
-The model will  run through a GUI, an external window with a Menu from which you can select 'Run Model'. There are 2 other figure pop ups which can be closed.
-The rescaling of the colour of the environment around the sheeps path represents where they have eaten, it will also show when they have eaten too much and vommited up there store (yellow colour).
+The model will  run through a GUI, an external window with a menu from which you can select 'Run Model'. There are 2 other figure pop ups which can be closed.
+The rescaling of the colour of the environment represents the sheeps path where they have eaten, it will also show when they have eaten too much and vommited up their store (yellow colour).
 
-Additionally, agents will interact by sharing their store if they come within a certain distance of one another, as defined by the neighbourhood varibale.  
+Additionally, agents will interact by sharing their store if they come within a certain distance of one another, as defined by the neighbourhood variable.  
 The environment values will be written to an excel file. In addition, the total store of all agents will by printed in the console after the model has run.
 
 ## Licence 
 This project is licenced under the MIT licence.
-The website used a pre loaded theme.
+The website used a theme.
 By Gladys Kenyon based on online practicals by Andy Evans.
