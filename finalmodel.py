@@ -9,7 +9,6 @@ import matplotlib # For mapping
 matplotlib.use('TkAgg') # For creating GUI
 
 
-
 # SET VARIABLES   
 # For the number of sheep (agents)
 num_of_agents = 25
@@ -22,7 +21,6 @@ neighbourhood = 20
 environment = []
 # Create empty list for agents                                                 
 agents = []
-
 
 
 # CREATE THE ENVIRONMENT - FIELD FOR SHEEP 
@@ -40,7 +38,6 @@ for row in reader:	# For every row
 f.close() # Good practice to close file    
 
 
-
 # CREATE THE AGENTS - SHEEP TO GRAZE FIELD
 # Give each agent access to info on others
 for i in range(num_of_agents):
@@ -51,7 +48,6 @@ a = agentframework1.Agent(environment, agents, neighbourhood)
 # print(a._y, a._x)
 a.move() # Check the co-ordinates move
 # print(a._y, a._x)
-
 
 
 # SET UP THE MODEL
@@ -85,14 +81,12 @@ def update(frame_number):  # Define update function by frame_number
     plt.legend(["Sheep"], loc = "upper center") # Choose legend and location
     
 
-
 # ANIMATE THE MODEL
 def run(): # Define run function
     # Use FuncAnimation to set the frames to number of iterations
     animation = matplotlib.animation.FuncAnimation(fig, update,
                                                    frames= num_of_iterations, repeat = False)        
     canvas.draw() # Draw the figure
- 
  
     
 # SET UP GUI
