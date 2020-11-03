@@ -21,7 +21,7 @@ There are three variables which have been set but can be changed:
 * number of iterations
 * neighbourhood size
 
-## Sheep in a field- what is to be expected
+## Sheep in a field
 The model represents a field (the environment) which contains a herd of sheep (agents).
 The sheep will perform a set of behaviours, as defined in a separate Agent class, which involve interacting with each other and their environment.
 
